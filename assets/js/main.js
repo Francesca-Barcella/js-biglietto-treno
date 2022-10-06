@@ -39,5 +39,13 @@ const priceLess40 = priceTotalKms * 40 / 100;
 console.log(priceLess40);
 
 // 4° - se il passeggero ha - di 18 anni applicare sconto del 20%
-
 // 5° - altrimenti se il passeggero ha + di 65 applicare lo sconto del 40%
+// 6° - altrimenti pagherà il prezzo pieno
+if (userAge < 18) {
+    console.log('il prezzo per i minorenni è di €:', priceLess20);
+} else if (userAge > 65){
+    console.log('il prezzo per gli over 65 è di €:', priceLess40);
+} else {
+    console.log('il prezzo per te è di €:', priceTotalKms);
+
+}
