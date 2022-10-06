@@ -53,3 +53,11 @@ if (userAge < 18) {
 } else {
     console.log('il prezzo per te è di €:', priceTotalKms);
 }
+
+
+document.getElementById('user_age').innerHTML = userAge;
+
+document.getElementById('travel_kms').innerHTML = travelKms;
+
+document.getElementById('total_price').innerHTML = priceTotalKms;
+
