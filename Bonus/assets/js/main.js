@@ -75,3 +75,14 @@ document.getElementById('user_age').innerHTML = userAge;
 document.getElementById('travel_kms').innerHTML = travelKms;
 
 document.getElementById('total_price').innerHTML = priceTotalKmsRound;
+
+if (userAge < 18) {
+    document.getElementById('price_discount').innerHTML = priceLess20Round;
+    console.log('il prezzo per i minorenni è di €:', priceLess20Round);
+} else if (userAge > 65){
+    document.getElementById('price_discount').innerHTML = priceLess40Round;
+    console.log('il prezzo per gli over 65 è di €:', priceLess40Round);
+} else {
+    document.getElementById('price_discount').innerHTML = '-';
+    console.log('il prezzo per te è di €:', priceTotalKmsRound);
+}
