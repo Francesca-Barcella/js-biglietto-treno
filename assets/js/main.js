@@ -15,8 +15,12 @@ Questo richiederà un minimo di ricerca, oltre alla ricerca da fare per ricordar
 ***************************************************/
 //INFOMRAZIONI DA RICHIEDERE ALL'UTENTE:
 // 1°  - chiedere all'utente quanti km deve percorrere
+const userAge = Number(prompt('quanti anni hai?'));
+console.log(userAge);
 
 // 2°  - chiedere all'utente quanti anni ha
+const travelKms = Number(prompt('quanti km devi percorrere?'));
+console.log(travelKms);
 
 // CALCOLO DEL COSTO DEL VIAGGIO
 // 1° - calcolare il prezzo totale moltiplicando i km per 0.21€/km
