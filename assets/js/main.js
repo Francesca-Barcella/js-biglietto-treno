@@ -24,6 +24,11 @@ console.log(travelKms);
 
 // CALCOLO DEL COSTO DEL VIAGGIO
 // 1° - calcolare il prezzo totale moltiplicando i km per 0.21€/km
+const priceKm = 0.21;
+console.log(travelKms);
+
+const moltiplicazione = priceKm * travelKms;
+console.log(moltiplicazione);
 
 // 2° - calcolare lo sconto del 20%
 
