@@ -30,7 +30,7 @@ console.log(travelKms);
 const priceTotalKms = priceKm * travelKms;
 console.log(priceTotalKms);
 
-const priceTotalKmsRound = Math.round(priceTotalKms);
+const priceTotalKmsRound = priceTotalKms.toFixed(2);
 console.log('il prezzo totale per te è:', priceTotalKmsRound);
 
 // 2° - calcolare e togliere lo sconto del 20%
@@ -40,7 +40,7 @@ console.log(discount20);
 const priceLess20 = priceTotalKms - discount20;
 console.log(priceLess20);
 
-const priceLess20Round = Math.round(priceLess20);
+const priceLess20Round = priceLess20.toFixed(2);
 console.log('il prezzo -20% arrotondato è:', priceLess20Round);
 
 // 3° - calcolare e togliere lo sconto del 40%
@@ -50,7 +50,7 @@ console.log(discount40);
 const priceLess40 = priceTotalKms - discount20;
 console.log(priceLess40);
 
-const priceLess40Round = Math.round(priceLess40);
+const priceLess40Round = priceLess40.toFixed(2);
 console.log('il prezzo -40% arrotondato è:', priceLess40Round);
 
 // 4° - se il passeggero ha - di 18 anni applicare sconto del 20%
