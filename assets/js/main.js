@@ -47,5 +47,4 @@ if (userAge < 18) {
     console.log('il prezzo per gli over 65 è di €:', priceLess40);
 } else {
     console.log('il prezzo per te è di €:', priceTotalKms);
-
 }
