@@ -35,12 +35,18 @@ console.log(travelKms);
 const priceTotalKms = priceKm * travelKms;
 console.log(priceTotalKms);
 
-// 2° - calcolare lo sconto del 20%
-const priceLess20 = priceTotalKms * 20 / 100;
+// 2° - calcolare e togliere lo sconto del 20%
+const discount20 = priceTotalKms * 20 / 100;
+console.log(discount20);
+
+const priceLess20 = priceTotalKms - discount20;
 console.log(priceLess20);
 
-// 3° - calcolare lo sconto del 40%
-const priceLess40 = priceTotalKms * 40 / 100;
+// 3° - calcolare e togliere lo sconto del 40%
+const discount40 = priceTotalKms * 40 / 100;
+console.log(discount40);
+
+const priceLess40 = priceTotalKms - discount20;
 console.log(priceLess40);
 
 // 4° - se il passeggero ha - di 18 anni applicare sconto del 20%
